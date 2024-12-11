@@ -1,4 +1,5 @@
 Motion Sentry: A Real-Time 3D Object Tracking System Using FPGA
+
 The Motion Sentry is an advanced tracking system that is made up of camera-based motion detection, servo motor control, and laser sensing to allow for real-time 3D object tracking. 
 The full system utilizes an FPGA to run a pipelined background subtraction algorithm to identify motion in the x-y plane. 
 With this data, the FPGA relays the position to a servo motor which translates the position into motion using pulse-width modulation (PWM).
